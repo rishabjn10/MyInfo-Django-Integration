@@ -1,0 +1,24 @@
+[project]
+name = "myinfo_django_integration"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "rishabjn10", email = "rishabjn10@gmail.com"},
+    {name = "Rishabh Jain", email = "rishabjn10@gmail.com"},
+]
+dependencies = [
+    "django>=5.1.5",
+    "requests==2.32.0",
+    "jwcrypto==1.5.5",
+    "responses==0.23.3",
+    "pytest>=8.3.4",
+    "djangorestframework>=3.15.2",
+    "pytest-django>=4.9.0",
+]
+requires-python = "==3.11.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
