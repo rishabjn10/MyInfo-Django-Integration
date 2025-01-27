@@ -31,7 +31,7 @@ This project is a Django-based backend application that integrates with MyInfo v
 2. **Clone the repository**
 
    ```bash
-   git clone https://github.com/yourusername/myinfo-django-api.git
+   git clone https://github.com/rishabjn10/MyInfo-Django-Integration
    cd myinfo-django-api
    ```
 
